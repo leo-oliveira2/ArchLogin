@@ -1,0 +1,6 @@
+@ArchLogin_HostAddress = http://localhost:5062
+
+GET {{ArchLogin_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
