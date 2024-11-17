@@ -4,6 +4,7 @@
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
 
   <ItemGroup>
@@ -21,4 +22,7 @@
     <PackageReference Include="StackExchange.Redis" Version="2.2.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Include="C:\Users\leona\Documents\ArchLogin\common\SharedAssembyInfo.cs" Link="SharedAssembyInfo.cs" />
+  </ItemGroup>
 </Project>
