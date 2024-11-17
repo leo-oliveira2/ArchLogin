@@ -1,3 +1,4 @@
+namespace ArchLogin;
 using System;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
