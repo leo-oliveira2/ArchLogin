@@ -34,13 +34,13 @@ public class JwtValidator
             IssuerSigningKey = new SymmetricSecurityKey(key),
 
             ValidateLifetime = true,
-            ClockSkew = TimeSpan.Zero // Evita tolerância para tokens expirados
+            ClockSkew = TimeSpan.Zero 
         };
 
         try
         {
             var principal = tokenHandler.ValidateToken(token, validationParameters, out _);
-            return principal; // Retorna as claims se válido
+            return principal; 
         }
         catch (SecurityTokenException ex)
         {
